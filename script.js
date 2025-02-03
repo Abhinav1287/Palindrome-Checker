@@ -21,5 +21,6 @@ if(isPalindrome){
 else{
 result.innerHTML=`${userInput} is not a palindrome`;
 }
+  enterInput.value = "";
 });
 
